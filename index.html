@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chad Menden</title>
+  <meta name="description" content="Personal homepage of Chad Menden.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#">CM</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Chad Menden</h1>
+      <p class="lede">
+        <!-- EDIT: replace with a one-line description of yourself -->
+        I build things, learn in public, and share what I make here.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="https://github.com/velocityq">GitHub</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <!-- EDIT: tell people a bit about yourself -->
+      <p>
+        This is my corner of the internet. I'm interested in technology, building
+        useful tools, and picking up new skills along the way. This site is a work
+        in progress &mdash; check back as it grows.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <!-- EDIT: duplicate a card for each project -->
+        <article class="card">
+          <h3>hello-github</h3>
+          <p>My first repository &mdash; and the source for this very website.</p>
+          <a href="https://github.com/velocityq/hello-github">View on GitHub &rarr;</a>
+        </article>
+        <article class="card placeholder">
+          <h3>Next project</h3>
+          <p>Something new is on the way. Stay tuned.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>The best way to reach me is through GitHub.</p>
+      <ul class="links">
+        <li><a href="https://github.com/velocityq">github.com/velocityq</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>&copy; <span id="year">2026</span> Chad Menden</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
